@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 83px;
+  height: 94px;
+  background-color: black;
+}
+
+.line
+{
+  width: 2px;
+  height: 50px;
+  background-color: white;
+  margin-left: 63px;
+}
+
+ul
+{
+  display: flex;
+  align-items: center;
+  gap: 63px;
+  list-style: none;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  margin-left: 64px;
+}
+
+img, li
+{
+  cursor: pointer;
+}
+
+.main
+{
+  background-image: url("bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 92vh;
+  color: white;
+  text-align: center;
+}
+
+h1
+{
+  width: 846px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 80px;
+  padding-top: 172px;
+}
+
+p
+{
+  font-family: "Poppins";
+  font-size: 30px;
+}
+
+.btn1
+{
+  padding: 7px 28px;
+  font-size: 16px;
+}
+
+.btn2
+{
+  padding: 14px 22px;
+  font-size: 30px;
+  margin-top: 64px;
+}
+
+button
+{
+  background: darkmagenta;
+  border-radius: 50px;
+  font-family: "Poppins";
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
