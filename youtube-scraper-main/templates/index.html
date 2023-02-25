@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<table cellspacing="0">
+      <tr>
+         <th>Index</th>
+         <th>Title</th>
+         <th>Views</th>
+         <th>Time Since Posted</th>
+      </tr>
+         {% for detail in details %}
+      <tr>
+          <td>{{detail.Index}}</td>
+         <td>{{detail.Title}}</td>
+         <td>{{detail.Views}}</td>
+         <td>{{detail.Time_since_posted}}</td>
+       	 {% endfor %}
+   </table>
+
+</body>
+</html>
