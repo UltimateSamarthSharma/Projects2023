@@ -19,7 +19,7 @@ with open(csv_filename,'r') as data:
 @app.route("/")
 @cross_origin()
 def home():
-	return render_template('home2.html',details=details)
+	return render_template('index.html',details=details)
 
 if __name__=="__main__":
     app.run(host='127.0.0.1', port=8000, debug=True)
