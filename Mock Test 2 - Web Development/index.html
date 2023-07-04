@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" type="text/javascript"></script>
+    <title>Mock Test 2 - Question 2</title>
+  </head>
+  <body>
+    <form id="myForm" onsubmit="validateForm(event)">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required />
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" min="1" required />
+
+      <label for="gender">Gender:</label>
+      <select id="gender" required>
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" required />
+
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color" required />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
