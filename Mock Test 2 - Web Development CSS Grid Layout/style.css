@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Box-1 Box-1 Box-2 Box-2 Box-4 Box-4"
+    "Box-1 Box-1 Box-2 Box-2 Box-4 Box-4"
+    "Box-1 Box-1 Box-2 Box-2 Box-5 Box-5"
+    "Box-3 Box-3 Box-3 Box-3 Box-5 Box-5"
+    "Box-3 Box-3 Box-3 Box-3 Box-6 Box-6"
+    "Box-3 Box-3 Box-3 Box-3 Box-6 Box-6";
+}
+
+.Box-1 {
+  grid-area: Box-1;
+  background-color: red;
+}
+
+.Box-2 {
+  grid-area: Box-2;
+  background-color: red;
+}
+
+.Box-3 {
+  grid-area: Box-3;
+  background-color: red;
+}
+
+.Box-4 {
+  grid-area: Box-4;
+  background-color: red;
+}
+
+.Box-5 {
+  grid-area: Box-5;
+  background-color: red;
+}
+
+.Box-6 {
+  grid-area: Box-6;
+  background-color: red;
+}
+
+div
+{
+    height: 250px;
+    width: 250px;
+}
