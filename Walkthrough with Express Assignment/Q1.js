@@ -25,7 +25,7 @@ const womenProducts = [
   { id: 7, name: 'Women Product 7', category: 'Women' },
   { id: 8, name: 'Women Product 8', category: 'Women' },
   { id: 9, name: 'Women Product 9', category: 'Women' },
-  { id: 10, name: 'Women Product 1', category: 'Women' },
+  { id: 10, name: 'Women Product 10', category: 'Women' },
 ];
 
 const server = http.createServer((req, res) => {
